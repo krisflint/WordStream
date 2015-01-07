@@ -1,0 +1,70 @@
+/*page wide styles*/
+
+
+h1, h2, p, li, a {
+	font-family: sans-serif;
+}
+p, li, a {
+	font-size: 12px;
+}
+
+
+/*header layout*/
+
+header {
+	margin-top: -24px;
+}
+#top-nav {
+	width: 400px;
+	height: 44px;
+	border-radius: 10px;
+	border: 1px solid dimgrey;
+	background-color: AliceBlue;
+	display: inline-block;
+	margin: 0 0 0 400px;
+}
+#top-nav li {
+	display: inline-block;
+	color: grey;
+}
+#top-nav a {
+	color: grey;
+	padding: 0 10px 12px 0;
+}
+#login {
+	width: 70px;
+	height: 30px;
+	color: white;
+	background-color: #007ABD;
+	border-radius: 6px;
+	display: inline-block;
+	margin: 16px 0 0 20px;
+	border: 0 solid #007ABD;
+	font-size: 14px;
+}
+#logo-head {
+	display: inline-block;
+	margin: 0;
+}
+
+#logo-head h1 {
+	display: inline-block;
+	width: 100px;
+	height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
