@@ -1,35 +1,44 @@
 /*page wide styles*/
 
-
 h1, h2, p, li, a {
 	font-family: sans-serif;
 }
 p, li, a {
 	font-size: 12px;
+	line-height: 160%
+}
+a {
+	color: #007ABD;
+}
+.blueword {
+	color: #007ABD;
+}
+.boldword {
+	font-weight: bold;
 }
 
-
-/*header layout*/
+/*---top-nav----*/
 
 header {
-	margin-top: -24px;
+	margin-top: -20px;
 }
 #top-nav {
-	width: 400px;
+	width: 440px;
 	height: 44px;
 	border-radius: 10px;
 	border: 1px solid dimgrey;
 	background-color: AliceBlue;
 	display: inline-block;
-	margin: 0 0 0 400px;
+	margin: 0 0 0 390px;
 }
 #top-nav li {
 	display: inline-block;
 	color: grey;
+	padding: 3px 6px 0 0;
 }
 #top-nav a {
 	color: grey;
-	padding: 0 10px 12px 0;
+	padding: 3px 10px 12px 0;
 }
 #login {
 	width: 70px;
@@ -42,16 +51,202 @@ header {
 	border: 0 solid #007ABD;
 	font-size: 14px;
 }
+
+/*Logo and title layout*/
+
 #logo-head {
-	display: inline-block;
+	width: 970px;
+	height: 90px;
 	margin: 0;
 }
 
-#logo-head h1 {
+#logo-head img {
+	margin: 0 0 0 6px;
 	display: inline-block;
+}
+
+#logo-head h1 {
 	width: 100px;
 	height: 50px;
+	display: inline-block;
+	font-size: 36px;
+	margin: 10px 0 0 12px;
+	vertical-align: top;
+	color: gray;
+	font-weight: 600;
 }
+#banner {
+	background-color: #007ABD;
+	height: 60px;
+	width: 970px;
+	margin: -20px 0 0 0;
+}
+#banner h1 {
+	color: white;
+	margin: 12px 0 0 12px;
+	padding: 18px 0 0 0;
+	font-weight: normal;
+	font-size: 24px;
+}
+
+/*--sub-nav--------------*/
+
+#sub-nav {
+/*	background-color: tan;*/
+	height: 70px;
+	width: 970px;
+}
+#sub-nav img, h3, ul {
+	display: inline-block;
+}
+#sub-nav .home-button {
+	margin: 0 0 20px 280px;
+}
+#sub-nav h3 {
+	color: #007ABD;
+	vertical-align: top;
+	margin: 32px 0 0 3px;
+	font-weight: 400;
+	font-size: 16px;
+}
+#sub-nav .phone {
+	margin: 0 0 15px 280px;
+}
+#sub-nav li {
+	color: gray;
+	line-height: 120%;
+}
+#sub-nav a {
+	color: #007ABD;
+	font-size: 27px;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 120%;
+}
+#sub-nav ul {
+	list-style: none;
+	padding: 0 0 12px 6px;
+}
+/*--side-nav---*/
+#side-nav {
+	display: inline-block;
+	/*background-color: tan;*/
+	width: 240px;
+	height: 700px;
+	padding: 0 0 0 12px;
+	vertical-align: top;
+}
+#side-nav h2 {
+	font-weight: 400;
+	font-size: 22px;
+	margin: 12px 0 0 0;
+}
+#side-nav h3 {
+	color: red;
+	font-size: 14px;
+	margin: 12px 0 6px 0;
+}
+#side-nav p {
+	margin: 0 0 18px 0;
+}
+#demo, #trial {
+	width: 240px;
+	height: 36px;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 4px 0 4px 0;
+	border-radius: 6px;
+}
+#demo {
+	background-color: #007ABD;
+}
+#trial {
+	background-color: #EC610D;
+}
+.credit {
+	text-align:  center;
+	height: 24px;
+	border-bottom: solid 1px gray;
+}
+#ad-measure {
+	background-image: url("left_content_ad.png");
+	background-size: cover;
+    background-repeat: no-repeat;
+	width: 200px;
+	height: 290px;
+	padding: 9px;
+}
+#ad-measure h2 {
+	font-size: 18px;
+	font-weight: 600;
+	margin: 0;
+}
+#ad-measure p {
+	font-size: 13px;
+	color: gray;
+	font-weight: 700;
+	margin: 9px 0 6px 0;
+
+}
+#ad-measure button {
+	color: white;
+	font-size: 15px;
+	font-weight: 400;
+	width: 200px;
+	height: 35px;
+	margin: 30px 0 0 0;
+	background-color: #007ABD;
+	border-radius: 9px;
+}
+
+/*---main-section----*/
+#main-section {
+	width: 660px;
+	height: 700px;
+/*	background-color: tan;*/
+	display: inline-block;
+	margin: 12px 0 0 24px;
+	border-top: 1px solid gray;
+}
+#main-section h2 {
+	font-size: 18px;
+	margin: 6px 0 12px 0;
+}
+#main-section ul {
+	padding: 0;
+	list-style-type: square;
+	margin: 6px 0 0 12px;
+}
+#ad-drive {
+	width: 550px;
+	height: 160px;
+	padding: 6px 0 0 80px;
+	margin: 0 0 20px 0;
+	border: 5px solid #9CBDFF;
+	background-image: url("content_ad.png");
+    background-repeat: no-repeat;
+    background-size: 12%;
+}
+#ad-drive h2 {
+	vertical-align: top;
+	font-size: 18px;
+}
+#ad-drive p {
+	font-weight: 500;
+	line-height: 120%;
+	font-size: 15px;
+}
+#ad-drive button {
+	border-radius: 8px;
+	color: white;
+	width: 190px;
+	height: 40px;
+	background-color: #44A721;
+}
+
+
+
 
 
 
